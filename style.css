@@ -19,7 +19,7 @@ body {
     transform: translate(-50%, -50%);
   }
   div.name{
-      width: 75%;
+      width: 50%;
       background-color: azure;
       padding: 7px;
       text-align: center;
@@ -50,5 +50,7 @@ body {
         transition: 0.7s;
 
     }
-
+      div.name{
+          width: 75%;
+      }
 }
